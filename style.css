@@ -4,10 +4,21 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: aliceblue;
+    padding-top: 100px;
+}
+
 .container {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
 header h1 {
@@ -25,6 +36,7 @@ form {
 
 header img {
     height: 36px;
+    margin-right: 20px;
 }
 
 input {
@@ -38,9 +50,26 @@ button {
     padding: 8px;
     background-color: rgb(143, 214, 36);
     color: white;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 12px 0;
 }
 
 table td {
     text-align: center;
     font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid grey;
 }
+
+td img {
+    height: 50px;
+}
+
