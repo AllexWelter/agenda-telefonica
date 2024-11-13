@@ -3,7 +3,7 @@
 
  Resultado final do repositório:
  
- ![image](https://github.com/user-attachments/assets/de5bb10e-71c2-4d8d-a60d-a5b26306c62b)
+ ![image](https://github.com/user-attachments/assets/3b6f8b0f-761f-43dc-aca2-4e29fa43b4aa)
 
  ---
 
