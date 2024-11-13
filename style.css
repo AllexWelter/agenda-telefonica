@@ -13,6 +13,12 @@ body {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border: 3px solid #4CAF50;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 header {
@@ -47,10 +53,17 @@ input {
 
 button {
     border: none;
-    padding: 8px;
+    padding: 8px 16px;
     background-color: rgb(143, 214, 36);
     color: white;
     font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /*transição sauve para efeito de hover */
+}
+
+button:hover {
+    background-color: #4CAF50;
+    transform: scale(1.05); /*Efeito de zoom no botão */
 }
 
 table {
